@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	background-image: url(images.jpg);
+	background-size: cover; /* Hace que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen en el viewport */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+  
+	header{
+	width: 1000px;
+	height: 200px;
+	background-color: black;
+}
+ header video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	background-color: black;
+	
+ }
+nav{
+	width: 1000px;
+	height: 50px;
+	background-image: url(tierra.jpg);
+
+
+}
+article{
+	width: 800px; /* Ancho completo de su contenedor padre */
+	height: 700px; /* Altura específica del artículo */
+	position: relative; /* Necesario para posicionar el video absolutamente dentro de este */
+	float: left;
+}
+.Textodiv{ /* Atexto del inicio */
+	color: beige;
+	margin-top: 120px; /* Espacio arriba */
+	margin-bottom: 10px; /* Espacio abajo */
+	margin-left: 30px; /* Espacio a la izquierda */
+	margin-right: 50px; /* Espacio a la derecha */
+}
+iframe{   /* Ajustes para el iframe ocupetodo el espacio */
+	position: absolute;
+	width: 800px;
+	height: 700px;
+	border: none;
+}
+  /* Estilos para el video */
+  article video {
+/* Posiciona el video absolutamente dentro del artículo position: absolute */
+	top: 0;
+	left: 0;
+	width: 100%; /* Hace que el video ocupe todo el ancho del artículo */
+	height: 100%; /* Hace que el video ocupe toda la altura del artículo */
+	object-fit: cover; /* Hace que el video cubra toda el área del artículo sin distorsión */
+  }
+  
+aside{
+	width: 200px;
+	height: 700px;/* background-image: url(banners/n.png) para usar baner*/
+	float: left;
+	background-color: black;
+	background-size: cover; /* Hace que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen en el viewport */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	float: left;
+}
+	nav a{
+		text-decoration: none;
+		color: inherit;
+		font-size: 20px;
+		font-family: tahoma;
+	}
+	nav li{
+		display: inline-block;
+		padding: 13px 25px;
+		box-shadow: 0px 0px 0px black;
+		color: white;
+	}
+	nav li:hover{
+		background-color: rgb(35, 116, 39);
+		color: black;
+		box-shadow: 3px 3px 20px rgb(51, 148, 75);
+		transition: 0.5s;
+	}
+	nav ul{
+		text-align: left;
+	}	  
+	footer p {
+		color: #fff; /* Cambia el color del texto */
+		font-size: 20px; /* Cambia el tamaño de la fuente */
+		margin: 10px 0; /* Cambia el margen */
+		text-align: center; /* Centra el texto */
+		font-weight: bold; /* Hace el texto en negrita */
+	  }
+	  /*barra de comentario */
+	  .redes ul{
+		list-style: none;
+		text-align: center;/*queda centrado*/
+	  }
+	  .redes ul li{
+		display: block; /*forma*/
+		
+	  }
+	  .redes ul li img{ 
+		width: 39px;/*volumen de los logos*/
+	  }
+	  .redes ul li a{
+		display: block;
+		padding: 50px 8px;
+		transition: all 0.5;
+	  }
+	  .redes ul li a:hover{
+		background-color: blue;/* para que aparesca color cuando se pasa el mous al logo*/
+		box-shadow: 0 0 30px white; /* sombra */
+	  }
+	  /*logos color*/
+	  .redes ul li .google{
+		background-image: url(roca.jpg);
+	  }
+	  .redes ul li .gmail{
+		background-image: url(Hojas.jpg);
+	  }
+	  .redes ul li .twitter{
+		background-image: url(lluvia.jpg);
+		background-size: cover;
+	  }
+	  .redes ul li .istangram{
+		background-image: url(rama.png);
+		background-size: cover;
+	  }
+	  .redes ul li .whassat{
+		background-image: url(rocas.jpg);
+		background-size: cover;
+	  }

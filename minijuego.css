@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 780px; /* Ancho del iframe */
+    height: 600px; /* Alto del iframe */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.dropzone {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50;
+    position: absolute;
+    top: 400px;
+    left: 340px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-image: url(contenedor.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el espacio */
+    background-position: center; /* Centra la imagen en el viewport */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    
+}
+
+.movable {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+#movable1 {
+  background-image: url(botella.jpg);
+  background-size: cover; /* Hace que la imagen cubra todo el espacio */
+  background-position: center; /* Centra la imagen en el viewport */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#movable2 {
+  background-image: url(carton.jpg);
+  background-size: cover; /* Hace que la imagen cubra todo el espacio */
+  background-position: center; /* Centra la imagen en el viewport */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#movable3 {
+  background-image: url(papel.png);
+  background-size: cover; /* Hace que la imagen cubra todo el espacio */
+  background-position: center; /* Centra la imagen en el viewport */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}

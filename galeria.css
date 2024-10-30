@@ -1,0 +1,41 @@
+/* Estilo para el contenedor principal */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Estilo para la lista */
+.list {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Estilo para los elementos de la lista */
+.list-item {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imagenes/fondos/ceped.jpg);/* Color marco  backron color*/
+    margin: 10px;
+    padding: 10px;
+}
+.list-item img {
+    width: 100%;  /* Ajusta la imagen al ancho del contenedor */
+    height: 100%; /* Ajusta la imagen a la altura del contenedor */
+    object-fit: cover; /* Mantiene la proporción de la imagen y cubre el contenedor */
+}
+h1 {
+    color: rgb(68, 255, 0); /* rgb(43, 240, 60) */
+    background-color: rgba(56, 117, 28, 0.596);
+}
+p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(56, 117, 28, 0.596);
+    font-size: 30px;
+}
